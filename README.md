@@ -30,7 +30,7 @@ Under covers in HA, use this config Motorize Curtain Control
   - platform: mqtt
     name: "Curtain Living Room"
     command_topic: "home/curtain/livingroom"
-    state_topic: "home/curtain/livingroom/state"
+    state_topic: "home/curtain/state"
     qos: 0
     retain: true
     payload_open: "u"
